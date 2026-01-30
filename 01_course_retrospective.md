@@ -15,7 +15,7 @@
 ---
 
 ## 2. What went wrong / Challenges
-- I struggled with **asynchronous operations** (Promises and async/await) and sometimes faced **API call errors**.
+- I struggled with **asynchronous operations** (Promises and async/await) and sometimes faced **API call errors** alongside with **React Hooks**.
 
 - I also struggled to create my own strategy to etch what I have learned in my own understading. 
 
