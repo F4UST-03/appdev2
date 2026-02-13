@@ -1,31 +1,45 @@
-import {StyleSheet, Text, View} from 'react-native';
+import {View, Text} from 'react-native';
 
-const LotsOfStyles = () => {
+const FixedDimensionsBasics = () => {
   return (
-    <View style={styles.container}>
-      <Text style={styles.red}>just red</Text>
-      <Text style={styles.bigBlue}>just big Blue</Text>
-      <Text style={[styles.bigBlue, styles.red]}>big Blue, then red</Text>
-      <Text style={[styles.red, styles.bigBlue]}>red, then big Blue</Text>
+    <View>
+      <View
+        style={{
+          width: 50,
+          height: 50,
+          backgroundColor: 'powderblue',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        <Text style={{color: 'black', fontSize: 12}}>powderblue</Text>
+      </View>
+      
+      <View
+        style={{
+          width: 100,
+          height: 100,
+          backgroundColor: 'skyblue',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        <Text style={{color: 'black', fontSize: 13}}>skyblue</Text>
+      </View>
+      
+      <View
+        style={{
+          width: 150,
+          height: 150,
+          backgroundColor: 'steelblue',
+          justifyContent: 'center',
+          alignItems: 'center',
+        }}
+      >
+        <Text style={{color: 'white', fontSize: 14}}>steelblue</Text>
+      </View>
     </View>
   );
 };
 
-const styles = StyleSheet.create({
-  container: {
-    marginTop: 50,
-  },
-
-  bigBlue: {
-    color: 'blue',
-    fontWeight: 'bold',
-    fontSize: 30,
-  },
-
-  red: {
-    color: 'red',
-  },
-  
-});
-
-export default LotsOfStyles;
+export default FixedDimensionsBasics;
