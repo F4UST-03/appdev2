@@ -4,6 +4,7 @@ import LayoutDirection from './components/layoutDirection';
 import JustifyContent from './components/justifyContent';
 import AlignItems from './components/alignItems';
 import AlignSelf from './components/alignSelf';
+import AlignContent from './components/alignContent';
 
 export default function App() {
   // return <Flex />;
@@ -11,5 +12,6 @@ export default function App() {
   // return <LayoutDirection />;
   // return <JustifyContent />;
   // return <AlignItems />;
-  return <AlignSelf />;
+  // return <AlignSelf />;
+  return <AlignContent />;
 }
