@@ -5,6 +5,7 @@ import JustifyContent from './components/justifyContent';
 import AlignItems from './components/alignItems';
 import AlignSelf from './components/alignSelf';
 import AlignContent from './components/alignContent';
+import FlexWrap from './components/flexWrap';
 
 export default function App() {
   // return <Flex />;
@@ -13,5 +14,6 @@ export default function App() {
   // return <JustifyContent />;
   // return <AlignItems />;
   // return <AlignSelf />;
-  return <AlignContent />;
+  // return <AlignContent />;
+  return <FlexWrap />;
 }
