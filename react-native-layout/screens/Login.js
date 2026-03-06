@@ -76,8 +76,8 @@ const styles = StyleSheet.create({
   },
   input: {
     height: 55,
-    borderWidth: 1,
-    borderColor: "#d9d9d9",
+    borderWidth: 0.8,
+    borderColor: "#2e7d57",
     borderRadius: 12,
     paddingHorizontal: 15,
     backgroundColor: "#ffffff",
@@ -88,8 +88,8 @@ const styles = StyleSheet.create({
   passwordContainer: {
     flexDirection: "row",
     alignItems: "center",
-    borderWidth: 1,
-    borderColor: "#d9d9d9",
+    borderWidth: 0.8,
+    borderColor: "#2e7d57",
     borderRadius: 12,
     backgroundColor: "#fff",
     paddingHorizontal: 15,
@@ -108,8 +108,6 @@ const styles = StyleSheet.create({
     borderRadius: 50,
     justifyContent: "center",
     alignItems: "center",
-    width: "95%",
-    alignSelf: "center",
     borderColor: "#63521b",
     borderWidth: 1,
     marginTop: 15,
@@ -127,7 +125,7 @@ const styles = StyleSheet.create({
   },
 
   signupLink: {
-    color: "#bb8b22"
+    color: "#09955b"
   },
 
   image: {
