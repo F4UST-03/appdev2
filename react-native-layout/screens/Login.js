@@ -7,7 +7,7 @@ import {
   StyleSheet,
   Image
 } from "react-native";
-
+import { Ionicons } from "@expo/vector-icons";
 
 export default function LoginScreen() {
 
@@ -41,7 +41,11 @@ export default function LoginScreen() {
         <TouchableOpacity
           onPress={() => setHidePassword(!hidePassword)}
         >
-          
+          <Ionicons
+            name={hidePassword ? "eye-off" : "eye"}
+            size={22}
+            color="gray"
+          />
         </TouchableOpacity>
       </View>
 
