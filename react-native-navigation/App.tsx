@@ -40,7 +40,7 @@ function DetailsScreen({ route }) {
       <Button
         onPress={
           () =>
-            navigation.push('Details', {
+            navigation.setParams({
               itemId: Math.floor(Math.random() * 100),
             })
         }
